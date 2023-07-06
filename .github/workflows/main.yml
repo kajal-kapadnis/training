@@ -12,6 +12,14 @@ jobs:
         run: echo Hello, world!
        
         
-      - name: Run a one-line script
-        run: echo Hello, kajal!
+      - name: Run second step
+        run: |
+          echo Hello, kajal!
+          sleep 10s
+      - name: Run third step
+        run: |
+          touch sample.txt
+          ls -l
+          sleep 10s
+          
         
