@@ -10,4 +10,8 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo Hello, world!
-        run: echo this is second line
+       
+        
+      - name: Run a one-line script
+        run: echo Hello, kajal!
+        
