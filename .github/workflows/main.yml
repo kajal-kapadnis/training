@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
 jobs:
   build:
-    runs-on: master
+    runs-on: self-hosted
     steps:
       - name: Run a one-line script
         run: echo Hello, world!
